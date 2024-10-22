@@ -7,5 +7,3 @@ class Livro:
 
     def __str__(self):
         return f"Livro: {self._titulo}, autor: {self._autor}, ano: {self._ano}, Livro disponivel? : {self._status}"
-    
-    

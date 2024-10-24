@@ -43,3 +43,6 @@ class Reserva:
                 print(f"Status quarto - {quarto['nome']}")
                 disponivel = 'disponivel' if quarto['disponivel'] else 'reservado!!!'
                 print(f"A disponibilidade do quarto {quarto['nome']} esta '{disponivel}'")
+                return
+        
+        print(f"O quarto {quarto_selecionado}, não foi encontrado!!!")

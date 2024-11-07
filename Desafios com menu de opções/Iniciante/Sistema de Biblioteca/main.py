@@ -3,8 +3,7 @@ from Livro import Livro
 livro = Livro()
 
 def main():
-    livro.adicionar_livro()
-    livro.listar_livros()
+    livro.menu()
 
 if __name__ == "__main__":
     main()
